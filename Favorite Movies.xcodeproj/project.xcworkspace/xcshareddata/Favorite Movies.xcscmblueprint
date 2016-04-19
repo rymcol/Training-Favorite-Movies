@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1F35C8861868ED9A6ED73D525FE1773CBB90B3C7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1F35C8861868ED9A6ED73D525FE1773CBB90B3C7" : 0,
+    "D5EAFF9D312ED9AA21EE9249F6759AE6AC19D6E0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "78B1F26F-453F-4B15-994A-DBDF87F64EA8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1F35C8861868ED9A6ED73D525FE1773CBB90B3C7" : "Favorite%20Movies\/",
+    "D5EAFF9D312ED9AA21EE9249F6759AE6AC19D6E0" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Favorite Movies",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Favorite Movies.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:rymcol\/Training-Favorite-Movies.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1F35C8861868ED9A6ED73D525FE1773CBB90B3C7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:rymcol\/iOS-Training-Exercises.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D5EAFF9D312ED9AA21EE9249F6759AE6AC19D6E0"
+    }
+  ]
+}
