@@ -8,12 +8,15 @@
 
 import UIKit
 import CoreData
+import SafariServices
 
 class MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
     
     var movies = [Movie]()
+    
+    var detailVC: DetailVC!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,6 +53,12 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         }
     }
     
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        detailVC = DetailVC(nibName: "DetailVC", bundle: nil, movie: movies[indexPath.row])
+        presentViewController(detailVC, animated: true, completion: nil)
+        
+    }
+    
     func fetchAndSetResults() {
         let application = UIApplication.sharedApplication().delegate as! AppDelegate
         let managedObjectContext = application.managedObjectContext
@@ -63,6 +72,10 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         }
     }
 
+    @IBAction func linkTapped(sender: UIButton) {
+        let svc = SFSafariViewController(URL: NSURL(string: (sender.titleLabel?.text)!)!)
+        self.presentViewController(svc, animated: true, completion: nil)
+    }
 
 }
 
