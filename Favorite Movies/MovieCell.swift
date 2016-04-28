@@ -27,7 +27,7 @@ class MovieCell: UITableViewCell {
         self.movieImage.image = movie.getMovieImage()
         self.movieTitle.text = movie.title
         self.movieDescription.text = movie.desc
-        self.movieLink.titleLabel?.text = movie.link
+        movieLink.setTitle(movie.link, forState: UIControlState.Normal)
     }
 
 }

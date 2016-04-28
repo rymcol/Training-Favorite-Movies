@@ -26,6 +26,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         tableView.delegate = self
         tableView.dataSource = self
+        
     }
     
     override func viewDidAppear(animated: Bool) {
