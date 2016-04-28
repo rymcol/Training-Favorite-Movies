@@ -26,7 +26,6 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         tableView.delegate = self
         tableView.dataSource = self
-        
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -77,6 +76,6 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         let svc = SFSafariViewController(URL: NSURL(string: (sender.titleLabel?.text)!)!)
         self.presentViewController(svc, animated: true, completion: nil)
     }
-
+    
 }
 
